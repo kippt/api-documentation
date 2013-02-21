@@ -1,6 +1,6 @@
 # Kippt's API documentation
 
-This is Kippt's API documentation. We use the API for our web frontend and that's why you can 
+This is Kippt's API documentation. We use the API for our own web frontend and you're free to use it for your own projects and hacks.
 
 ## Mailing list and questions
 
@@ -36,7 +36,7 @@ As this API is also used for Kippt's web app, we have had to make few design com
 
 ### Account
 
-- [**<code>GET</code>  /api/account/**]()
+- [**<code>GET</code>  /api/account/**](https://github.com/kippt/api-documentation/blob/master/endpoints/account/GET_account.md)
 
 ### Users
 
@@ -96,19 +96,19 @@ As this API is also used for Kippt's web app, we have had to make few design com
 
 ## Objects
 
-- [User]()
-- [Clip]()
-- [List]()
-- [Comment]()
-- [Notification]()
+- [**User**](https://github.com/kippt/api-documentation/blob/master/endpoints/objects/user.md)
+- [**Clip**](https://github.com/kippt/api-documentation/blob/master/endpoints/objects/clip.md)
+- [**List**](https://github.com/kippt/api-documentation/blob/master/endpoints/objects/list.md)
+- [**Comment**](https://github.com/kippt/api-documentation/blob/master/endpoints/objects/comment.md)
+- [**Notification**](https://github.com/kippt/api-documentation/blob/master/endpoints/objects/notification.md)
 
 ## Contribution
 
 While designing Kippt's API, we looked how other well designed APIs are build and structured. 
 
-- Instagram - Instagram's API has extremely well designed social API with following, comments and likes. Social structure in Kippt's API is heavily influenced by Instagram
-- GitHub - GitHub's API is one of the few which can be navigated with textual identifiers which makes linking of the API and the web frontend possible
-- Foursquare - Foursquare uses timestamp based API versioning. So do we (v1 style versioning feels like boxed software).
-- 500px - This API documentation borrows heavily from 500px's structure
-- django-tastypie - Kippt's pagination design is borrowed from Tastypie
+- [Instagram](http://instagram.com/developer/) - Instagram's API has extremely well designed social API with following, comments and likes. Social structure in Kippt's API is heavily influenced by Instagram
+- [GitHub](http://developer.github.com/) - GitHub's API is one of the few which can be navigated with textual identifiers which makes linking of the API and the web frontend possible
+- [Foursquare](https://developer.foursquare.com/) - Foursquare uses timestamp based API versioning. So do we (v1 style versioning feels like boxed software).
+- [500px](https://github.com/500px/api-documentation/) - This API documentation borrows heavily from 500px's structure
+- [django-tastypie](http://tastypieapi.org/) - Kippt's pagination design is borrowed from Tastypie
 
