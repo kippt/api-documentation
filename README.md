@@ -14,9 +14,9 @@ All data is returned in JSON format. Also all the data that is passed to the ser
 
 Part of the API requires authentication and in some cases authenticated users will receive more information (e.g. _is_favorite_ status for Clip models). Easiest way to test the API is to open GET endpoint in Chrome with [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) extension installed.
 
-- __Browser session__
-- __HTTP Basic Auth__
-- __API Token__
+- [**Browser session**]()
+- [**HTTP Basic Auth**]()
+- [**API Token**]()
 
 ## Versioning
 
@@ -36,63 +36,63 @@ As this API is also used for Kippt's web app, we have had to make few design com
 
 ### Account
 
-- [<code>GET</code>  /api/account/]()
+- [**<code>GET</code>  /api/account/**]()
 
 ### Users
 
-- [<code>GET</code>  /api/users/:user_id/]()
-- [<code>GET</code>  /api/users/:user_id/followers/]()
-- [<code>GET</code>  /api/users/:user_id/following/]()
-- [<code>GET</code>  /api/users/:user_id/relationship/]()
-- [<code>GET</code>  /api/users/self/feed/]()
-- [<code>GET</code>  /api/users/:user_id/clips/]()
-- [<code>GET</code>  /api/users/:user_id/likes/]()
-- [<code>GET</code>  /api/users/:user_id/lists/]()
-- [<code>GET</code>  /api/users/:user_id/lists/:list_id/]()
-- [<code>GET</code>  /api/users/search/](/api/users/search/)
-- [<code>POST</code>  /api/users/:user_id/relationship/]()
+- [**<code>GET</code>  /api/users/:user_id/**]()
+- [**<code>GET</code>  /api/users/:user_id/followers/**]()
+- [**<code>GET</code>  /api/users/:user_id/following/**]()
+- [**<code>GET</code>  /api/users/:user_id/relationship/**]()
+- [**<code>GET</code>  /api/users/self/feed/**]()
+- [**<code>GET</code>  /api/users/:user_id/clips/**]()
+- [**<code>GET</code>  /api/users/:user_id/likes/**]()
+- [**<code>GET</code>  /api/users/:user_id/lists/**]()
+- [**<code>GET</code>  /api/users/:user_id/lists/:list_id/**]()
+- [**<code>GET</code>  /api/users/search/**]()
+- [**<code>POST</code>  /api/users/:user_id/relationship/**]()
 
 
 ### Clips
 
-- [<code>GET</code>  /api/clips/]()
-- [<code>GET</code>  /api/clips/favorites/]()
-- [<code>GET</code>  /api/clips/:clip_id/]()
-- [<code>GET</code>  /api/clips/:clip_id/comments/]()
-- [<code>GET</code>  /api/clips/:clip_id/comments/:comment_id/]()
-- [<code>GET</code>  /api/clips/:clip_id/likes/]()
-- [<code>GET</code>  /api/clips/:clip_id/favorite/]()
-- [<code>GET</code>  /api/clips/search/]()
-- [<code>PUT</code>  /api/clips/:clip_id/]()
-- [<code>POST</code> /api/clips/]()
-- [<code>POST</code> /api/clips/:clip_id/comments/]()
-- [<code>POST</code> /api/clips/:clip_id/likes/]()
-- [<code>POST</code> /api/clips/:clip_id/favorite/]()
-- [<code>DELETE</code> /api/clips/:clip_id/]()
-- [<code>DELETE</code> /api/clips/:clip_id/comments/:comment_id/]()
-- [<code>DELETE</code> /api/clips/:clip_id/likes/]()
-- [<code>DELETE</code> /api/clips/:clip_id/favorite/]()
+- [**<code>GET</code>  /api/clips/**]()
+- [**<code>GET</code>  /api/clips/favorites/**]()
+- [**<code>GET</code>  /api/clips/:clip_id/**]()
+- [**<code>GET</code>  /api/clips/:clip_id/comments/**]()
+- [**<code>GET</code>  /api/clips/:clip_id/comments/:comment_id/**]()
+- [**<code>GET</code>  /api/clips/:clip_id/likes/**]()
+- [**<code>GET</code>  /api/clips/:clip_id/favorite/**]()
+- [**<code>GET</code>  /api/clips/search/**]()
+- [**<code>PUT</code>  /api/clips/:clip_id/**]()
+- [**<code>POST</code> /api/clips/**]()
+- [**<code>POST</code> /api/clips/:clip_id/comments/**]()
+- [**<code>POST</code> /api/clips/:clip_id/likes/**]()
+- [**<code>POST</code> /api/clips/:clip_id/favorite/**]()
+- [**<code>DELETE</code> /api/clips/:clip_id/**]()
+- [**<code>DELETE</code> /api/clips/:clip_id/comments/:comment_id/**]()
+- [**<code>DELETE</code> /api/clips/:clip_id/likes/**]()
+- [**<code>DELETE</code> /api/clips/:clip_id/favorite/**]()
 
 
 ### Lists
 
-- [<code>GET</code>  /api/lists/]()
-- [<code>GET</code>  /api/lists/following/]()
-- [<code>GET</code>  /api/lists/:list_id/]()
-- [<code>GET</code> /api/lists/:list_id/clips/]()
-- [<code>GET</code> /api/lists/:list_id/collaborators]()
-- [<code>GET</code>  /api/lists/:list_id/relationship/]()
-- [<code>PUT</code>  /api/lists/:list_id/]()
-- [<code>POST</code> /api/lists/]()
-- [<code>POST</code> /api/lists/:list_id/collaborators]()
-- [<code>POST</code> /api/lists/:list_id/relationship/]()
-- [<code>DELETE</code>   /api/lists/:list_id/]()
+- [**<code>GET</code>  /api/lists/**]()
+- [**<code>GET</code>  /api/lists/following/**]()
+- [**<code>GET</code>  /api/lists/:list_id/**]()
+- [**<code>GET</code> /api/lists/:list_id/clips/**]()
+- [**<code>GET</code> /api/lists/:list_id/collaborators/**]()
+- [**<code>GET</code>  /api/lists/:list_id/relationship/**]()
+- [**<code>PUT</code>  /api/lists/:list_id/**]()
+- [**<code>POST</code> /api/lists/**]()
+- [**<code>POST</code> /api/lists/:list_id/collaborators**]()
+- [**<code>POST</code> /api/lists/:list_id/relationship/**]()
+- [**<code>DELETE</code>   /api/lists/:list_id/**]()
 
 ### Notifications
 
-- [<code>GET</code>  /api/notifications/]()
-- [<code>GET</code>  /api/notifications/:notification/]()
-- [<code>POST</code> /api/notifications/]()
+- [**<code>GET</code>  /api/notifications/**]()
+- [**<code>GET</code>  /api/notifications/:notification_id/**]()
+- [**<code>POST</code> /api/notifications/**]()
 
 ## Objects
 
@@ -100,7 +100,7 @@ As this API is also used for Kippt's web app, we have had to make few design com
 - [Clip]()
 - [List]()
 - [Comment]()
-- [Notifications]()
+- [Notification]()
 
 ## Contribution
 
