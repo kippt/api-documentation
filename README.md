@@ -36,78 +36,71 @@ As this API is also used for Kippt's web app, we have had to make few design com
 
 ### Account
 
-- [GET /api/account/]()
+- [<code>GET</code>  /api/account/]()
 
 ### Users
 
-- [GET /api/users/:user_id/]()
-- [GET /api/users/:user_id/followers/]()
-- [GET /api/users/:user_id/following/]()
-- [GET /api/users/:user_id/relationship/]()
-- [POST /api/users/:user_id/relationship/]()
+- [<code>GET</code>  /api/users/:user_id/]()
+- [<code>GET</code>  /api/users/:user_id/followers/]()
+- [<code>GET</code>  /api/users/:user_id/following/]()
+- [<code>GET</code>  /api/users/:user_id/relationship/]()
+- [<code>GET</code>  /api/users/self/feed/]()
+- [<code>GET</code>  /api/users/:user_id/clips/]()
+- [<code>GET</code>  /api/users/:user_id/likes/]()
+- [<code>GET</code>  /api/users/:user_id/lists/]()
+- [<code>GET</code>  /api/users/:user_id/lists/:list_id/]()
+- [<code>GET</code>  /api/users/search/](/api/users/search/)
+- [<code>POST</code>  /api/users/:user_id/relationship/]()
 
-- [GET /api/users/self/feed/]()
-- [GET /api/users/:user_id/clips/]()
-- [GET /api/users/:user_id/likes/]()
-- [GET /api/users/:user_id/lists/]()
-- [GET /api/users/:user_id/lists/:list_id/]()
-- [GET /api/users/search/](/api/users/search/)
 
 ### Clips
 
-- [GET /api/clips/]()
-- [POST /api/clips/]()
-- [GET /api/clips/favorites/]()
+- [<code>GET</code>  /api/clips/]()
+- [<code>GET</code>  /api/clips/favorites/]()
+- [<code>GET</code>  /api/clips/:clip_id/]()
+- [<code>GET</code>  /api/clips/:clip_id/comments/]()
+- [<code>GET</code>  /api/clips/:clip_id/comments/:comment_id/]()
+- [<code>GET</code>  /api/clips/:clip_id/likes/]()
+- [<code>GET</code>  /api/clips/:clip_id/favorite/]()
+- [<code>GET</code>  /api/clips/search/]()
+- [<code>PUT</code>  /api/clips/:clip_id/]()
+- [<code>POST</code> /api/clips/]()
+- [<code>POST</code> /api/clips/:clip_id/comments/]()
+- [<code>POST</code> /api/clips/:clip_id/likes/]()
+- [<code>POST</code> /api/clips/:clip_id/favorite/]()
+- [<code>DELETE</code> /api/clips/:clip_id/]()
+- [<code>DELETE</code> /api/clips/:clip_id/comments/:comment_id/]()
+- [<code>DELETE</code> /api/clips/:clip_id/likes/]()
+- [<code>DELETE</code> /api/clips/:clip_id/favorite/]()
 
-- [GET /api/clips/:clip_id/]()
-- [PUT /api/clips/:clip_id/]()
-- [DELETE /api/clips/:clip_id/]()
-
-- [GET /api/clips/:clip_id/comments/]()
-- [POST /api/clips/:clip_id/comments/]()
-- [GET /api/clips/:clip_id/comments/:comment_id/]()
-- [DELETE /api/clips/:clip_id/comments/:comment_id/]()
-
-- [GET /api/clips/:clip_id/likes/]()
-- [POST /api/clips/:clip_id/likes/]()
-- [DELETE /api/clips/:clip_id/likes/]()
-
-- [GET /api/clips/:clip_id/favorite/]()
-- [POST /api/clips/:clip_id/favorite/]()
-- [DELETE /api/clips/:clip_id/favorite/]()
-
-- [GET /api/clips/search/]()
 
 ### Lists
 
-- [GET /api/lists/]()
-- [POST /api/lists/]()
-
-- [GET /api/lists/following/]()
-
-- [GET /api/lists/:list_id/]()
-- [PUT /api/lists/:list_id/]()
-- [DELETE /api/lists/:list_id/]()
-
-- [GET /api/lists/:list_id/clips/]()
-- [GET /api/lists/:list_id/collaborators]()
-- [POST /api/lists/:list_id/collaborators]()
-- [GET /api/lists/:list_id/relationship/]()
-- [POST /api/lists/:list_id/relationship/]()
+- [<code>GET</code>  /api/lists/]()
+- [<code>GET</code>  /api/lists/following/]()
+- [<code>GET</code>  /api/lists/:list_id/]()
+- [<code>GET</code> /api/lists/:list_id/clips/]()
+- [<code>GET</code> /api/lists/:list_id/collaborators]()
+- [<code>GET</code>  /api/lists/:list_id/relationship/]()
+- [<code>PUT</code>  /api/lists/:list_id/]()
+- [<code>POST</code> /api/lists/]()
+- [<code>POST</code> /api/lists/:list_id/collaborators]()
+- [<code>POST</code> /api/lists/:list_id/relationship/]()
+- [<code>DELETE</code>   /api/lists/:list_id/]()
 
 ### Notifications
 
-- [GET /api/notifications/]()
-- [POST /api/notifications/]()
-- [GET /api/notifications/:notification/]()
+- [<code>GET</code>  /api/notifications/]()
+- [<code>GET</code>  /api/notifications/:notification/]()
+- [<code>POST</code> /api/notifications/]()
 
 ## Objects
 
-[User]()
-[Clip]()
-[List]()
-[Comment]()
-[Notifications]()
+- [User]()
+- [Clip]()
+- [List]()
+- [Comment]()
+- [Notifications]()
 
 ## Contribution
 
