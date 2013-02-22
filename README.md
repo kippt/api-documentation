@@ -8,21 +8,32 @@ If you use Kippt's API, we invite you to join [our mailing list](https://groups.
 
 ## Format
 
-All data is returned in JSON format. Also all the data that is passed to the server, must be formatted as JSON message.
+All data is returned in JSON format. Also all the data that is passed to the server, must be formatted as JSON message. To get JSONP-style responses, supply GET attribute <code>callback</code>. The <code>callback</code> parameter is the desired function name and must be alphanumeric.
 
 ## Authentication
 
 Part of the API requires authentication and in some cases authenticated users will receive more information (e.g. _is_favorite_ status for Clip models). Easiest way to test the API is to open GET endpoint in Chrome with [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) extension installed.
 
-- [**Browser session**]()
-- [**HTTP Basic Auth**]()
-- [**API Token**]()
+Supported authentication:
+
+- Browser session
+- HTTP Basic Auth
+- API Token
+
+[Read more about authentication]()
 
 ## Versioning
 
 Kippt's API uses timestamp based versioning which will return API version for the given date. If there's breaking changes to API, user's are given few months time to migrate.
 
 [Read more about versioning]()
+
+## Interacting with the API
+
+Kippt's API uses regular <code>GET</code>, <code>POST</code>, <code>PUT</code> and <code>DELETE</code> commands.
+
+[Making requests and error codes]()
+
 
 ## Pagination
 
