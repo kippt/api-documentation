@@ -26,20 +26,19 @@ Supported authentication:
 
 Kippt's API uses timestamp based versioning which will return API version for the given date. If there's breaking changes to API, user's are given few months time to migrate.
 
-[Read more about versioning]()
+[Read more about versioning](https://github.com/kippt/api-documentation/blob/master/basics/versioning.md)
 
 ## Interacting with the API
 
 Kippt's API uses regular <code>GET</code>, <code>POST</code>, <code>PUT</code> and <code>DELETE</code> commands.
 
-[Making requests and error codes]()
-
+[Making requests and error codes](https://github.com/kippt/api-documentation/blob/master/basics/making_requests_and_error_codes.md)
 
 ## Pagination
 
 When multiple objects are returned, pagination is used.
 
-[Read more about pagination]()
+[Read more about pagination](https://github.com/kippt/api-documentation/blob/master/basics/pagination.md)
 
 ## Endpoints
 
@@ -107,11 +106,11 @@ As this API is also used for Kippt's web app, we have had to make few design com
 
 ## Objects
 
-- [**User**](https://github.com/kippt/api-documentation/blob/master/endpoints/objects/user.md)
-- [**Clip**](https://github.com/kippt/api-documentation/blob/master/endpoints/objects/clip.md)
-- [**List**](https://github.com/kippt/api-documentation/blob/master/endpoints/objects/list.md)
-- [**Comment**](https://github.com/kippt/api-documentation/blob/master/endpoints/objects/comment.md)
-- [**Notification**](https://github.com/kippt/api-documentation/blob/master/endpoints/objects/notification.md)
+- [**User**](https://github.com/kippt/api-documentation/blob/master/objects/user.md)
+- [**Clip**](https://github.com/kippt/api-documentation/blob/master/objects/clip.md)
+- [**List**](https://github.com/kippt/api-documentation/blob/master/objects/list.md)
+- [**Comment**](https://github.com/kippt/api-documentation/blob/master/objects/comment.md)
+- [**Notification**](https://github.com/kippt/api-documentation/blob/master/objects/notification.md)
 
 ## Contribution
 
