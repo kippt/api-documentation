@@ -1,4 +1,4 @@
-# User Resources
+# [User](https://github.com/kippt/api-documentation/blob/master/objects/user.md) resource
 
     GET /api/account/
 
@@ -24,7 +24,7 @@ You can include
 ## Example
 **Request**
 
-    [GET /api/account/?include_data=api_token](https://grandcentral.kippt.com/api/account/?include_data=api_token)
+[GET /api/account/?include_data=api_token](https://grandcentral.kippt.com/api/account/?include_data=api_token)
 
 **Return**
 
