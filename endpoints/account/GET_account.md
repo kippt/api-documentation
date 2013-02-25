@@ -17,10 +17,6 @@ You can include
 - __include_data__
     - _api_token_
 
-## Return format
-
-JSON representation of User object for currently logged in user.
-
 ## Errors
 
 - __401__ - Not authenticated

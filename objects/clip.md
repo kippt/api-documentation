@@ -4,9 +4,9 @@ Describes <code>Clip</code> object.
 
 ## Parameters
 
-    <code>include_data</code>
-        - <code>via</code>
-        - <code>list</code>
+- <code>include_data</code>
+    - <code>via</code>
+    - <code>list</code>
 
 ## Favorite
 
