@@ -38,7 +38,7 @@ Response return follow relationship as boolean. See [<code>GET /api/users/:user_
 ## Example
 **Request**
 
-[POST /api/users/3/relationship/](https://grandcentral.kippt.com/api/users/3/relationship)
+    POST /api/users/3/relationship/
 
     {"action": "follow"}
 
