@@ -25,7 +25,7 @@ No authentication is required but logged in user can request his/hers data (simi
 ## Example
 **Request**
 
-    [GET /api/users/1/](https://grandcentral.kippt.com/api/users/1/)
+[GET /api/users/1/](https://grandcentral.kippt.com/api/users/1/)
 
 **Return**
 
