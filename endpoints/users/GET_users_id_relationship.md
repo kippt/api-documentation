@@ -1,6 +1,6 @@
-# Follow/unfollow user
+# Get information about a relationship to another user
 
-    POST /api/users/:user_id/relationship/
+    GET /api/users/:user_id/relationship/
 
 ## Description
 
@@ -14,21 +14,9 @@ This call requires authentication.
 
 - _None_
 
-## Request
-
-Request must contain valid JSON data with following values:
-
-- <code>action</code>
-    - <code>follow</code>
-    - <code>unfollow</code>
-
-E.g.
-
-    {"action": "follow"}
-
 ## Response
 
-Response return follow relationship as boolean. See [<code>GET /api/users/:user_id/relationship/</code>](https://github.com/kippt/api-documentation/blob/master/endpoints/users/GET_users_id_relationship.md)
+Response return follow relationship as boolean.
 
 ## Errors
 
@@ -38,9 +26,7 @@ Response return follow relationship as boolean. See [<code>GET /api/users/:user_
 ## Example
 **Request**
 
-[POST /api/users/3/relationship/](https://grandcentral.kippt.com/api/users/3/relationship)
-
-    {"action": "follow"}
+[GET /api/users/3/relationship/](https://grandcentral.kippt.com/api/users/3/relationship)
 
 **Return**
 
