@@ -90,18 +90,15 @@ As this API is also used for Kippt's web app, we have had to make few design com
 - [**<code>GET</code>  /api/lists/following/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/GET_lists_following.md)
 - [**<code>GET</code>  /api/lists/:list_id/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/GET_lists_id.md)
 - [**<code>GET</code> /api/lists/:list_id/clips/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/GET_lists_id_clips.md)
-- [**<code>GET</code> /api/lists/:list_id/collaborators/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/GET_lists_id_collaborators.md)
 - [**<code>GET</code>  /api/lists/:list_id/relationship/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/GET_lists_id_relationship.md)
 - [**<code>PUT</code>  /api/lists/:list_id/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/PUT_lists_id.md)
 - [**<code>POST</code> /api/lists/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/POST_lists.md)
-- [**<code>POST</code> /api/lists/:list_id/collaborators**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/POST_lists_id_collaborators.md)
 - [**<code>POST</code> /api/lists/:list_id/relationship/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/POST_lists_id_relationship.md)
 - [**<code>DELETE</code>   /api/lists/:list_id/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/DELETE_lists_id.md)
 
 ### Notifications
 
 - [**<code>GET</code>  /api/notifications/**](https://github.com/kippt/api-documentation/blob/master/endpoints/notifications/GET_notifications.md)
-- [**<code>GET</code>  /api/notifications/:notification_id/**](https://github.com/kippt/api-documentation/blob/master/endpoints/notifications/GET_notifications_id.md)
 - [**<code>POST</code> /api/notifications/**](https://github.com/kippt/api-documentation/blob/master/endpoints/notifications/POST_notifications.md)
 
 ## Objects
