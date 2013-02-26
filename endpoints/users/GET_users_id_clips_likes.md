@@ -1,10 +1,10 @@
-# User's favorites - [Clip](https://github.com/kippt/api-documentation/blob/master/objects/clip.md) collection
+# User's public likes - [Clip](https://github.com/kippt/api-documentation/blob/master/objects/clip.md) collection
 
-    GET /api/users/:user_id/clips/favorites/
+    GET /api/users/:user_id/clips/likes/
 
 ## Description
 
-User's public favorites (can be hidden, then <code>total_count: 0</code> is returned). <code>user_id</code> follows the same pattern as [GET <code>/api/users/:user_id/</code>](https://github.com/kippt/api-documentation/blob/master/endpoints/users/GET_users_id.md)
+Get user's public likes. <code>user_id</code> follows the same pattern as [GET <code>/api/users/:user_id/</code>](https://github.com/kippt/api-documentation/blob/master/endpoints/users/GET_users_id.md)
 
 ## No authentication required
 
@@ -20,7 +20,7 @@ Both <code>list</code> and <code>via</code> data for clips can be embedded into 
 
 E.g.
 
-    GET /api/users/1/clips/favorites/?include_data=list,via
+    GET /api/users/1/clips/likes/?include_data=list,via
 
 ## Errors
 
@@ -29,14 +29,14 @@ E.g.
 ## Example
 **Request**
 
-[GET /api/users/1/clips/favorites/](https://grandcentral.kippt.com/api/users/1/clips/favorites/)
+[GET /api/users/1/clips/likes/](https://grandcentral.kippt.com/api/users/1/clips/likes/)
 
 **Return**
 
     {
         {
-            next: "/api/users/1/clips/favorites/?limit=20&offset=20",
-            total_count: 1066,
+            next: "/api/users/1/clips/likes/?limit=20&offset=20",
+            total_count: 106,
             previous: null,
             limit: 20,
             offset: 0

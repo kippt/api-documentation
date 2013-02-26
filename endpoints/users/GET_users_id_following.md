@@ -27,11 +27,11 @@ No authentication is required.
 
     {
         meta: {
-        next: "/api/users/1/following/?limit=20&offset=20",
-        total_count: 1077,
-        previous: null,
-        limit: 20,
-        offset: 0
+            next: "/api/users/1/following/?limit=20&offset=20",
+            total_count: 1077,
+            previous: null,
+            limit: 20,
+            offset: 0
         },
         objects: [
             {
