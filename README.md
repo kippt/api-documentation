@@ -70,7 +70,6 @@ As this API is also used for Kippt's web app, we have had to make few design com
 - [**<code>GET</code>  /api/clips/favorites/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/GET_clips_favorites.md)
 - [**<code>GET</code>  /api/clips/:clip_id/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/GET_clips_id.md)
 - [**<code>GET</code>  /api/clips/:clip_id/comments/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/GET_clips_id_comments.md)
-- [**<code>GET</code>  /api/clips/:clip_id/favorite/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/GET_clips_id_favorite.md)
 - [**<code>GET</code>  /api/clips/:clip_id/likes/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/GET_clips_id_likes.md)
 - [**<code>GET</code>  /api/clips/search/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/GET_clips_search.md)
 - [**<code>PUT</code>  /api/clips/:clip_id/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/PUT_clips_id.md)
