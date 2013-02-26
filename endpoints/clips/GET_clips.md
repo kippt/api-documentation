@@ -27,7 +27,7 @@ E.g.
 ## Example
 **Request**
 
-[GET /api/clips/](https://grandcentral.kippt.com/api/users/1/clips/)
+[GET /api/clips/](https://grandcentral.kippt.com/api/clips/)
 
 **Return**
 

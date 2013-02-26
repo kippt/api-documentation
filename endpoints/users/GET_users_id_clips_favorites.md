@@ -1,4 +1,4 @@
-# User's favorites - [Clip](https://github.com/kippt/api-documentation/blob/master/objects/clip.md) collection
+# User's public favorites - [Clip](https://github.com/kippt/api-documentation/blob/master/objects/clip.md) collection
 
     GET /api/users/:user_id/clips/favorites/
 
