@@ -54,7 +54,6 @@ As this API is also used for Kippt's web app, we have had to make few design com
 - [**<code>GET</code>  /api/users/:user_id/followers/**](https://github.com/kippt/api-documentation/blob/master/endpoints/users/GET_users_id_followers.md)
 - [**<code>GET</code>  /api/users/:user_id/following/**](https://github.com/kippt/api-documentation/blob/master/endpoints/users/GET_users_id_following.md)
 - [**<code>GET</code>  /api/users/:user_id/relationship/**](https://github.com/kippt/api-documentation/blob/master/endpoints/users/GET_users_id_relationship.md)
-- [**<code>GET</code>  /api/users/self/feed/**]()
 - [**<code>GET</code>  /api/users/:user_id/clips/**](https://github.com/kippt/api-documentation/blob/master/endpoints/users/GET_users_id_clips.md)
 - [**<code>GET</code>  /api/users/:user_id/clips/likes/**]()
 - [**<code>GET</code>  /api/users/:user_id/lists/**](https://github.com/kippt/api-documentation/blob/master/endpoints/users/GET_users_id_lists.md)
@@ -66,6 +65,7 @@ As this API is also used for Kippt's web app, we have had to make few design com
 ### Clips
 
 - [**<code>GET</code>  /api/clips/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/GET_clips.md)
+- [**<code>GET</code>  /api/clips/feed/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/GET_clips_feed.md)
 - [**<code>GET</code>  /api/clips/favorites/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/GET_clips_favorites.md)
 - [**<code>GET</code>  /api/clips/:clip_id/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/GET_clips_id.md)
 - [**<code>GET</code>  /api/clips/:clip_id/comments/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/GET_clips_id_comments.md)
