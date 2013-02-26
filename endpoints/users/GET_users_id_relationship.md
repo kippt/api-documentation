@@ -1,4 +1,4 @@
-# Get information about a relationship to another user
+# Follow relationship to another user
 
     GET /api/users/:user_id/relationship/
 
