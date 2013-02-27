@@ -2,21 +2,39 @@
 
 Describes <code>Clip</code> object.
 
-## Parameters
+## Fields
 
-- <code>include_data</code>
-    - <code>via</code>
-    - <code>list</code>
+- **<code>id</code>** (Read only) - Unique identifier
+- **<code>url</code>** (Required) - Clip's URL
+- **<code>url_domain</code>** (Read only) - Domain of the URL
+- **<code>user</code>** (Read only) - Creator of the clip
+- **<code>title</code>** - Clip's title (if not provided, automatically fetched)
+- **<code>list</code>** - <code>resource_uri</code> of the List (defaults to Inbox)
+- **<code>via</code>** - <code>resource_uri</code> of the original Clip if saved via feed etc
+- **<code>notes</code>** - Markdown formatted notes for the Clip
+- **<code>comments</code>** - (Read only) Count and array of latest comments (see below)
+- **<code>likes</code>** - (Read only) Count and array of latest likes (see below)
+- **<code>saves</code>** - (Read only) Count and array of latest saves (see below)
+- **<code>is_favorite</code>** - (Read only) Indicates if the Clip is favorited by the current user (see below)
+- **<code>media</code>** - (Read only) Media and article data for the clip (see below, currently experimental and unsupported)
+- **<code>type</code>** - (Read only) Clip's type. Available values: <code>link</code>, <code>note</code> and experimental <code>image</code> and <code>file</code>
+- **<code>favicon_url</code>** (Read only) - Favicon for the site
+- **<code>created</code>** (Read only) - Datetime of creation
+- **<code>updated</code>** (Read only) - Datetime of last update
+- **<code>app_url</code>** (Read only) - Kippt's internal link
+- **<code>resource_uri</code>** (Read only) - Unique resource URI for this object
 
 ## Favorite
 
 _is_favorite_ is only included if request is authenticated.
 
-## Media (**UNSUPPORTED**)
+## Media and type (**UNSUPPORTED**)
 
 <code>media</code> describes Clip's media content and is highly dependent on the content of the saved page. One should never trust that certain information is available in <code>media</code>. Article data is <code>base64</code> encoded.
 
-Note that <code>media</code> is considered for Kippt's internal usage and is unsupported.
+Note that <code>media</code> is considered for Kippt's internal usage and is unsupported at the moment.
+
+Clip also has a type which is usually <code>link</code> or <code>note</code> (see below). We're also experimenting with <code>image</code> and <code>file</code> but they behave like <code>link</code>.
 
 ## Comments, likes and saves
 
@@ -29,7 +47,13 @@ Saves indicates who have saved this Clip into their own lists.
 
 # Note
 
-If Clip is stored as a note, <code>type</code> field has value <code>note</code>. In this case <code>url</code> is generated automatically.
+If Clip is stored as a note (only <code>note</code> field is posted without <code>url</code>), <code>type</code> field has value <code>note</code>. In this case <code>url</code> is generated automatically and can't be modified afterwards.
+
+## Parameters
+
+- <code>include_data</code>
+    - <code>via</code>
+    - <code>list</code>
 
 ## Example
 
