@@ -2,9 +2,30 @@
 
 Describes <code>List</code> object.
 
+## Fields
+
+- **<code>id</code>** (Read only) - Unique identifier
+- **<code>title</code>** - List's title
+- **<code>slug</code>** - (Read only) Slug for urls
+- **<code>is_private</code>** - Privacy (default: <code>true</code>)
+- **<code>user</code>** (Read only) - Creator of the clip
+- **<code>description</code>** - Description
+- **<code>collaborators</code>** - (Read only) Count and array of collaborators (see below)
+- **<code>created</code>** (Read only) - Datetime of creation
+- **<code>updated</code>** (Read only) - Datetime of last update
+- **<code>app_url</code>** (Read only) - Kippt's internal link
+- **<code>rss_url</code>** (Read only) - RSS feed
+- **<code>resource_uri</code>** (Read only) - Unique resource URI for this object
+
 ## Parameters
 
 None
+
+## Collaborators (**UNSUPPORTED**)
+
+List includes total counts for collaborators. As some lists can have arbitrary number of these, only the latest ones are stored. To get all collaborators, use their respected endpoints.
+
+- [**<code>GET</code>  /api/lists/:list_id/collaborators/**]()
 
 ## Example
 
