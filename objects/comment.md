@@ -2,6 +2,14 @@
 
 Describes <code>Comment</code> object.
 
+## Fields
+
+- **<code>id</code>** (Read only) - Unique identifier
+- **<code>user</code>** (Read only) - Creator of the comment
+- **<code>body</code>** - Markdown formatted comment
+- **<code>created</code>** (Read only) - Datetime of creation
+- **<code>resource_uri</code>** (Read only) - Unique resource URI for this object
+
 ## Parameters
 
 None
