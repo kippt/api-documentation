@@ -2,9 +2,11 @@
 
 This is Kippt's API documentation. We use the API for our own web frontend and you're free to use it for your own projects and hacks.
 
+If you find an error in the documentation, file an issue or send a pull request.
+
 ## Mailing list and questions
 
-If you use Kippt's API, we invite you to join [our mailing list](https://groups.google.com/forum/?fromgroups#!forum/kippt-developers). It's used for communicating changes and answering questions related to the API.
+If you use Kippt's API, we invite you to join [our mailing list](https://groups.google.com/forum/?fromgroups#!forum/kippt-developers). It's used for communicating changes and answering questions related to the API. To contact us directly, email us at [hello@kippt.com](mailto:hello@kippt.com).
 
 ## Format
 
