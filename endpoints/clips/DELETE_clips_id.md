@@ -1,4 +1,4 @@
-# Delete a clip - [Clip](https://github.com/kippt/api-documentation/blob/master/objects/clip.md) object
+# Delete a clip
 
     DELETE /api/clips/:clip_id/
 
