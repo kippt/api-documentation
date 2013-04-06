@@ -4,7 +4,7 @@ Kippt's API uses custom mime types to specify the version. Instead of version nu
 
 There are some endpoints and fields which are clearly marked as **experimental** or **unsupported** in the documentation. These are, as it says, unsupported and versioning work affect them: we might change them without prior notice but we try to avoid that. Use with caution.
 
-Accepted mime types are:
+Accepted mime types are (```Content-Type``` HTTP header):
 
 - Latest: <code>application/json</code>
 - Version: <code>application/vnd.kippt.YYYYMMDD+json</code>
