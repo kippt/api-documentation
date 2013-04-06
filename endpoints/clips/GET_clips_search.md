@@ -18,6 +18,7 @@ Both <code>list</code> and <code>via</code> data for clips can be embedded into 
 - <code>include_data</code>
     - <code>list</code>
     - <code>via</code>
+    - <code>media</code>
 
 E.g.
 
@@ -26,7 +27,7 @@ E.g.
 ## Example
 **Request**
 
-[GET /api/clips/search/?q=twitter](https://grandcentral.kippt.com/api/clips/search/?q=twitter)
+[GET /api/clips/search/?q=twitter](https://grandcentral.kippt.com/api/clips/search/?q=twitter&include_data=media)
 
 **Return**
 

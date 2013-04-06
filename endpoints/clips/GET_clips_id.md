@@ -12,12 +12,17 @@ No authentication is required when getting a public clip but will be needed if t
 
 ## Parameters
 
-- _None_
+Both <code>list</code> and <code>via</code> data for clips can be embedded into response.
+
+- <code>include_data</code>
+    - <code>list</code>
+    - <code>via</code>
+    - <code>media</code>
 
 ## Example
 **Request**
 
-[GET /api/clips/11267138/](https://grandcentral.kippt.com/api/clips/11267138/)
+[GET /api/clips/11267138/](https://grandcentral.kippt.com/api/clips/11267138/?include_data=media)
 
 **Return**
 

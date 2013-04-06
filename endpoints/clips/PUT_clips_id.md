@@ -41,25 +41,6 @@ Authentication required.
         id: 11267138,
         app_url: "/jorilallo/awesome/clips/11267138",
         title: "When Did Twitter Grow Up?",
-        media: {
-            description: "As a cultural force, Twitter has logged many defining moments. But as an ad platform and marketing tool, Twitter's coming-of-age appears to be happening now. That news stories like the hacking of the Jeep and Burger King Twitter accounts generated so much heat last week tells you how much brands have made Twitter part of their marketing infrastructure.",
-            title: "When Did Twitter Grow Up? | Digital - Advertising Age",
-            provider: {
-                url: "https://kippt.com",
-                name: "Kippt"
-            },
-            images: {
-            tile: {
-                url: "https://d19weqihs4yh5u.cloudfront.net/links/98d15454fc0d17322a66b2f2b9e042e5613d13fe/350x200",
-                width: 350,
-                height: 200
-            },
-            original: {
-                url: "https://d19weqihs4yh5u.cloudfront.net/links/98d15454fc0d17322a66b2f2b9e042e5613d13fe/original",
-                width: 100,
-                height: 67
-            }
-        },
         type: "link"
         },
         comments: {

@@ -30,9 +30,9 @@ _is_favorite_ is only included if request is authenticated.
 
 ## Media and type (**UNSUPPORTED**)
 
-<code>media</code> describes Clip's media content and is highly dependent on the content of the saved page. One should never trust that certain information is available in <code>media</code>. Article data is <code>base64</code> encoded.
+<code>media</code> describes Clip's media content and is highly dependent on the content of the saved page. One should never trust that certain information is available in <code>media</code>. Article data is <code>base64</code> encoded. Also note that <code>media</code> is only included with <code>?include_data=media</code>.
 
-Note that <code>media</code> is considered for Kippt's internal usage and is unsupported at the moment.
+<code>media</code> is considered for Kippt's internal usage and is unsupported at the moment.
 
 Clip also has a type which is usually <code>link</code> or <code>note</code> (see below). We're also experimenting with <code>image</code> and <code>file</code> but they behave like <code>link</code>.
 
@@ -54,12 +54,13 @@ If Clip is stored as a note (only <code>note</code> field is posted without <cod
 - <code>include_data</code>
     - <code>via</code>
     - <code>list</code>
+    - <code>media</code>
 
 ## Example
 
 **Request**
 
-    GET /api/clips/10654195/
+    GET /api/clips/10654195/?include_data=media
 
 **Return**
 
