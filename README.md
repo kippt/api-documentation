@@ -1,7 +1,5 @@
 # Kippt's API documentation
 
-__PREVIEW:__ This is the preview of Kippt's new API documentation. We would love to hear your comments, in issues or via email ([hello@kippt.com](mailto:hello@kippt.com)).
-
 This is Kippt's API documentation. We use the API for our own web frontend and you're free to use it for your own projects and hacks.
 
 If you find an error in the documentation, file an issue or send a pull request.
