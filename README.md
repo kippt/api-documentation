@@ -22,7 +22,7 @@ Supported authentication:
 - HTTP Basic Auth
 - API Token
 
-[Read more about authentication]()
+[Read more about authentication](https://github.com/kippt/api-documentation/blob/master/authentication/authentication.md)
 
 ## Versioning
 
