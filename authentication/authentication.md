@@ -20,4 +20,4 @@ You can authenticate with API token and your username. To authenticate with API 
 
 _Example:_ ```curl -X GET -H "X-Kippt-Username: jori" -H "X-Kippt-API-Token: 7fa721de1b0d1d918300a" https://kippt.com/api/clips/```
 
-__Note:__ We also expose user's API token via ```/api/account/?include_data=api_token``` endpoint and it can be used for authentication. Instead of storing user's password on device for HTTP Basic Auth, store this API token instead and use token authentication. API key can be reseted by changing your password.
+You can access the API token with ```/api/account/?include_data=api_token``` endpoint or get it from [developers.kippt.com](http://developers.kippt.com/#apitoken). You should always store user's API token instead of the password (first authenticate with HTTP Basic Auth, store the API token and use token authentication). API key can be reseted by changing your password.
