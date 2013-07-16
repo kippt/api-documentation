@@ -92,7 +92,6 @@ As this API is also used for Kippt's web app, we have had to make few design com
 - [**<code>GET</code>  /api/lists/:list_id/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/GET_lists_id.md)
 - [**<code>GET</code> /api/lists/:list_id/clips/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/GET_lists_id_clips.md)
 - [**<code>GET</code>  /api/lists/:list_id/relationship/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/GET_lists_id_relationship.md)
-- [**<code>GET</code>  /api/lists/search/**](https://github.com/kippt/api-documentation/blob/master/endpoints/clips/GET_lists_search.md)
 - [**<code>PUT</code>  /api/lists/:list_id/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/PUT_lists_id.md)
 - [**<code>POST</code> /api/lists/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/POST_lists.md)
 - [**<code>POST</code> /api/lists/:list_id/relationship/**](https://github.com/kippt/api-documentation/blob/master/endpoints/lists/POST_lists_id_relationship.md)
